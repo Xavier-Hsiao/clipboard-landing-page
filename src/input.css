@@ -32,6 +32,10 @@
 	h3 {
 		@apply mb-8 text-4xl font-bold text-dark-grayish-blue md:text-5xl;
 	}
+
+	h5 {
+		@apply mb-2 text-2xl font-bold text-dark-grayish-blue;
+	}
 }
 
 @layer components {
@@ -41,5 +45,9 @@
 
 	.button-container {
 		@apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+	}
+
+	.section-content {
+		@apply max-w-3xl mx-auto text-2xl text-grayish-blue;
 	}
 }
