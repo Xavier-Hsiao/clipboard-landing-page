@@ -314,7 +314,15 @@
 }
 @layer base {
   body {
+    background-image: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
     font-family: var(--font-family-sans);
+  }
+  @media (max-width: 576px) {
+    body {
+      background-image: url("../images/bg-header-mobile.png");
+    }
   }
 }
 @property --tw-space-y-reverse {
